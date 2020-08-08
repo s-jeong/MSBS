@@ -2,120 +2,120 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 Basis <- function(t, knM) {
-    .Call('_bmsaplm_Basis', PACKAGE = 'bmsaplm', t, knM)
+    .Call('_MSBS_Basis', PACKAGE = 'MSBS', t, knM)
 }
 
 CombBasis <- function(X, knM) {
-    .Call('_bmsaplm_CombBasis', PACKAGE = 'bmsaplm', X, knM)
+    .Call('_MSBS_CombBasis', PACKAGE = 'MSBS', X, knM)
 }
 
 DeltaPrior <- function(listdelta, gamma, mu, var, numkn, mu0, phat, p) {
-    .Call('_bmsaplm_DeltaPrior', PACKAGE = 'bmsaplm', listdelta, gamma, mu, var, numkn, mu0, phat, p)
+    .Call('_MSBS_DeltaPrior', PACKAGE = 'MSBS', listdelta, gamma, mu, var, numkn, mu0, phat, p)
 }
 
 Eta <- function(delta, gamma, p, q) {
-    .Call('_bmsaplm_Eta', PACKAGE = 'bmsaplm', delta, gamma, p, q)
+    .Call('_MSBS_Eta', PACKAGE = 'MSBS', delta, gamma, p, q)
 }
 
 GammaPrior <- function(gamma, p, q) {
-    .Call('_bmsaplm_GammaPrior', PACKAGE = 'bmsaplm', gamma, p, q)
+    .Call('_MSBS_GammaPrior', PACKAGE = 'MSBS', gamma, p, q)
 }
 
 LogBF <- function(delta, X, y, n, a) {
-    .Call('_bmsaplm_LogBF', PACKAGE = 'bmsaplm', delta, X, y, n, a)
+    .Call('_MSBS_LogBF', PACKAGE = 'MSBS', delta, X, y, n, a)
 }
 
 #' @export
 MCMCEstIteration <- function(X, y, delta, gamma, listdelta, numkn, n, p, q, logbf_cur, a, phat) {
-    .Call('_bmsaplm_MCMCEstIteration', PACKAGE = 'bmsaplm', X, y, delta, gamma, listdelta, numkn, n, p, q, logbf_cur, a, phat)
+    .Call('_MSBS_MCMCEstIteration', PACKAGE = 'MSBS', X, y, delta, gamma, listdelta, numkn, n, p, q, logbf_cur, a, phat)
 }
 
 MCMCOneIteration <- function(X, y, delta, gamma, listdelta, numkn, n, p, q, logbf_cur, phat, mu, var, mu0, a) {
-    .Call('_bmsaplm_MCMCOneIteration', PACKAGE = 'bmsaplm', X, y, delta, gamma, listdelta, numkn, n, p, q, logbf_cur, phat, mu, var, mu0, a)
+    .Call('_MSBS_MCMCOneIteration', PACKAGE = 'MSBS', X, y, delta, gamma, listdelta, numkn, n, p, q, logbf_cur, phat, mu, var, mu0, a)
 }
 
 MainSampleDelta <- function(sel_ind, fordelta, listdelta, numkn, phat) {
-    .Call('_bmsaplm_MainSampleDelta', PACKAGE = 'bmsaplm', sel_ind, fordelta, listdelta, numkn, phat)
+    .Call('_MSBS_MainSampleDelta', PACKAGE = 'MSBS', sel_ind, fordelta, listdelta, numkn, phat)
 }
 
 MainSampleDeltaGlobalUpdate <- function(X, y, indset, delta, gamma, listdelta, numkn, n, p, q, z, logbf_cur, phat) {
-    .Call('_bmsaplm_MainSampleDeltaGlobalUpdate', PACKAGE = 'bmsaplm', X, y, indset, delta, gamma, listdelta, numkn, n, p, q, z, logbf_cur, phat)
+    .Call('_MSBS_MainSampleDeltaGlobalUpdate', PACKAGE = 'MSBS', X, y, indset, delta, gamma, listdelta, numkn, n, p, q, z, logbf_cur, phat)
 }
 
 MainSampleDeltaGlobalUpdateVec <- function(X, y, delta, gamma, listdelta, numkn, n, p, q, logbf_cur, phat) {
-    .Call('_bmsaplm_MainSampleDeltaGlobalUpdateVec', PACKAGE = 'bmsaplm', X, y, delta, gamma, listdelta, numkn, n, p, q, logbf_cur, phat)
+    .Call('_MSBS_MainSampleDeltaGlobalUpdateVec', PACKAGE = 'MSBS', X, y, delta, gamma, listdelta, numkn, n, p, q, logbf_cur, phat)
 }
 
 MainSampleDeltaUpdate <- function(X, y, sel_ind, delta, gamma, listdelta, numkn, n, p, q, z, logbf_cur, phat) {
-    .Call('_bmsaplm_MainSampleDeltaUpdate', PACKAGE = 'bmsaplm', X, y, sel_ind, delta, gamma, listdelta, numkn, n, p, q, z, logbf_cur, phat)
+    .Call('_MSBS_MainSampleDeltaUpdate', PACKAGE = 'MSBS', X, y, sel_ind, delta, gamma, listdelta, numkn, n, p, q, z, logbf_cur, phat)
 }
 
 MakeInd <- function(numkn) {
-    .Call('_bmsaplm_MakeInd', PACKAGE = 'bmsaplm', numkn)
+    .Call('_MSBS_MakeInd', PACKAGE = 'MSBS', numkn)
 }
 
 PilotSampleDelta <- function(sel_ind, fordelta, listdelta, numkn, phat) {
-    .Call('_bmsaplm_PilotSampleDelta', PACKAGE = 'bmsaplm', sel_ind, fordelta, listdelta, numkn, phat)
+    .Call('_MSBS_PilotSampleDelta', PACKAGE = 'MSBS', sel_ind, fordelta, listdelta, numkn, phat)
 }
 
 PilotSampleDeltaGlobalUpdate <- function(X, y, indset, delta, gamma, listdelta, numkn, n, p, q, z, logbf_cur, phat) {
-    .Call('_bmsaplm_PilotSampleDeltaGlobalUpdate', PACKAGE = 'bmsaplm', X, y, indset, delta, gamma, listdelta, numkn, n, p, q, z, logbf_cur, phat)
+    .Call('_MSBS_PilotSampleDeltaGlobalUpdate', PACKAGE = 'MSBS', X, y, indset, delta, gamma, listdelta, numkn, n, p, q, z, logbf_cur, phat)
 }
 
 PilotSampleDeltaGlobalUpdateVec <- function(X, y, delta, gamma, listdelta, numkn, n, p, q, logbf_cur, phat) {
-    .Call('_bmsaplm_PilotSampleDeltaGlobalUpdateVec', PACKAGE = 'bmsaplm', X, y, delta, gamma, listdelta, numkn, n, p, q, logbf_cur, phat)
+    .Call('_MSBS_PilotSampleDeltaGlobalUpdateVec', PACKAGE = 'MSBS', X, y, delta, gamma, listdelta, numkn, n, p, q, logbf_cur, phat)
 }
 
 PilotSampleDeltaUpdate <- function(X, y, sel_ind, delta, gamma, listdelta, numkn, n, p, q, z, logbf_cur, phat) {
-    .Call('_bmsaplm_PilotSampleDeltaUpdate', PACKAGE = 'bmsaplm', X, y, sel_ind, delta, gamma, listdelta, numkn, n, p, q, z, logbf_cur, phat)
+    .Call('_MSBS_PilotSampleDeltaUpdate', PACKAGE = 'MSBS', X, y, sel_ind, delta, gamma, listdelta, numkn, n, p, q, z, logbf_cur, phat)
 }
 
 PseudoPrior <- function(delta, mu, var, numkn, mu0) {
-    .Call('_bmsaplm_PseudoPrior', PACKAGE = 'bmsaplm', delta, mu, var, numkn, mu0)
+    .Call('_MSBS_PseudoPrior', PACKAGE = 'MSBS', delta, mu, var, numkn, mu0)
 }
 
 PseudoSampleDelta <- function(mu, var, numkn, mu0) {
-    .Call('_bmsaplm_PseudoSampleDelta', PACKAGE = 'bmsaplm', mu, var, numkn, mu0)
+    .Call('_MSBS_PseudoSampleDelta', PACKAGE = 'MSBS', mu, var, numkn, mu0)
 }
 
 PseudoSampleDeltaVec <- function(delta, gamma, mu, var, numkn, mu0, p) {
-    .Call('_bmsaplm_PseudoSampleDeltaVec', PACKAGE = 'bmsaplm', delta, gamma, mu, var, numkn, mu0, p)
+    .Call('_MSBS_PseudoSampleDeltaVec', PACKAGE = 'MSBS', delta, gamma, mu, var, numkn, mu0, p)
 }
 
 R2 <- function(X, y) {
-    .Call('_bmsaplm_R2', PACKAGE = 'bmsaplm', X, y)
+    .Call('_MSBS_R2', PACKAGE = 'MSBS', X, y)
 }
 
 SampleFixeff <- function(n, WXi, y, qv) {
-    .Call('_bmsaplm_SampleFixeff', PACKAGE = 'bmsaplm', n, WXi, y, qv)
+    .Call('_MSBS_SampleFixeff', PACKAGE = 'MSBS', n, WXi, y, qv)
 }
 
 SampleGammaLinear <- function(X, y, n, a, listdelta, gamma, p, q, z, logpost, dp) {
-    .Call('_bmsaplm_SampleGammaLinear', PACKAGE = 'bmsaplm', X, y, n, a, listdelta, gamma, p, q, z, logpost, dp)
+    .Call('_MSBS_SampleGammaLinear', PACKAGE = 'MSBS', X, y, n, a, listdelta, gamma, p, q, z, logpost, dp)
 }
 
 SampleGammaLinearVec <- function(X, y, n, a, listdelta, gamma, p, q, logpost, dp) {
-    .Call('_bmsaplm_SampleGammaLinearVec', PACKAGE = 'bmsaplm', X, y, n, a, listdelta, gamma, p, q, logpost, dp)
+    .Call('_MSBS_SampleGammaLinearVec', PACKAGE = 'MSBS', X, y, n, a, listdelta, gamma, p, q, logpost, dp)
 }
 
 SampleGammaNonlinear <- function(X, y, n, a, listdelta, gamma, mu, var, numkn, mu0, phat, p, q, z, logpost) {
-    .Call('_bmsaplm_SampleGammaNonlinear', PACKAGE = 'bmsaplm', X, y, n, a, listdelta, gamma, mu, var, numkn, mu0, phat, p, q, z, logpost)
+    .Call('_MSBS_SampleGammaNonlinear', PACKAGE = 'MSBS', X, y, n, a, listdelta, gamma, mu, var, numkn, mu0, phat, p, q, z, logpost)
 }
 
 SampleGammaNonlinearVec <- function(X, y, n, a, listdelta, gamma, mu, var, numkn, mu0, phat, p, q, logpost) {
-    .Call('_bmsaplm_SampleGammaNonlinearVec', PACKAGE = 'bmsaplm', X, y, n, a, listdelta, gamma, mu, var, numkn, mu0, phat, p, q, logpost)
+    .Call('_MSBS_SampleGammaNonlinearVec', PACKAGE = 'MSBS', X, y, n, a, listdelta, gamma, mu, var, numkn, mu0, phat, p, q, logpost)
 }
 
 Subset <- function(delta, X, n) {
-    .Call('_bmsaplm_Subset', PACKAGE = 'bmsaplm', delta, X, n)
+    .Call('_MSBS_Subset', PACKAGE = 'MSBS', delta, X, n)
 }
 
 #' @export
 CombBasisCpp <- function(X, knM) {
-    .Call('_bmsaplm_CombBasisCpp', PACKAGE = 'bmsaplm', X, knM)
+    .Call('_MSBS_CombBasisCpp', PACKAGE = 'MSBS', X, knM)
 }
 
 ZTGeoPrior <- function(fordelta, numkn, phat) {
-    .Call('_bmsaplm_ZTGeoPrior', PACKAGE = 'bmsaplm', fordelta, numkn, phat)
+    .Call('_MSBS_ZTGeoPrior', PACKAGE = 'MSBS', fordelta, numkn, phat)
 }
 
