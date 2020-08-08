@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "export(CombBasis,Eta,LogBF,MCMCEstIteration,MCMCOneIteration,PilotSampleDeltaGlobalUpdateVec,bmsaplm,estaplm)\nS3method(print,bmsaplm)\nS3method(print,estaplm)\nS3method(print,predaplm)\nS3method(summary,bmsaplm)\nS3method(summary,estaplm)\nS3method(summary,predaplm)\nS3method(plot,estaplm)\nS3method(plot,predaplm)\nS3method(predict,estaplm)\nimportFrom(Rcpp,sourceCpp)\nimport(stats,graphics,grDevices,nleqslv)\nuseDynLib(MSBS)\n",
+    "created" : 1596901991724.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3247710987",
+    "id" : "F5168430",
+    "lastKnownWriteTime" : 1596874884,
+    "last_content_update" : 1596874884,
+    "path" : "C:/Dropbox/Rpackages/MSBS/NAMESPACE",
+    "project_path" : "NAMESPACE",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_namespace"
+}
