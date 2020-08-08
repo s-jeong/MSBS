@@ -1,0 +1,1385 @@
+[
+    {
+        "definitions" : [
+            {
+                "column" : 11,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/Basis.h",
+                "kind" : 6,
+                "line" : 11,
+                "name" : "Basis(arma::vec, arma::vec)",
+                "parent_name" : "",
+                "usr" : "c:@F@Basis#$@N@arma@C@Col>#d#S0_#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/MSBS/src/Basis.h",
+        "file_last_write" : 1503855866
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 11,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/CombBasis.h",
+                "kind" : 6,
+                "line" : 12,
+                "name" : "CombBasis(arma::mat, List)",
+                "parent_name" : "",
+                "usr" : "c:@F@CombBasis#$@N@arma@C@Mat>#d#I#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/MSBS/src/CombBasis.h",
+        "file_last_write" : 1504035203
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/DeltaPrior.h",
+                "kind" : 6,
+                "line" : 15,
+                "name" : "DeltaPrior(List, IntegerVector, NumericVector, NumericVector, IntegerVector, NumericVector, NumericVector, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@DeltaPrior#I#I#I#I#I#I#I#I#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/MSBS/src/DeltaPrior.h",
+        "file_last_write" : 1528643879
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 15,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/Eta.h",
+                "kind" : 6,
+                "line" : 11,
+                "name" : "Eta(List, IntegerVector, int, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@Eta#I#I#I#I#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/MSBS/src/Eta.h",
+        "file_last_write" : 1503974703
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/GammaPrior.h",
+                "kind" : 6,
+                "line" : 12,
+                "name" : "GammaPrior(IntegerVector, int, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@GammaPrior#I#I#I#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/MSBS/src/GammaPrior.h",
+        "file_last_write" : 1504065526
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/LogBF.h",
+                "kind" : 6,
+                "line" : 13,
+                "name" : "LogBF(IntegerVector, NumericMatrix, arma::vec, int, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@LogBF#I#I#$@N@arma@C@Col>#d#I#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/MSBS/src/LogBF.h",
+        "file_last_write" : 1503856061
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/MCMCEstIteration.h",
+                "kind" : 6,
+                "line" : 18,
+                "name" : "MCMCEstIteration(NumericMatrix, arma::vec, List, IntegerVector, List, IntegerVector, int, int, int, double, double, NumericVector)",
+                "parent_name" : "",
+                "usr" : "c:@F@MCMCEstIteration#I#$@N@arma@C@Col>#d#I#I#I#I#I#I#I#d#d#I#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/MSBS/src/MCMCEstIteration.h",
+        "file_last_write" : 1528646344
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/MCMCOneIteration.h",
+                "kind" : 6,
+                "line" : 18,
+                "name" : "MCMCOneIteration(NumericMatrix, arma::vec, List, IntegerVector, List, IntegerVector, int, int, int, double, NumericVector, NumericVector, NumericVector, NumericVector, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@MCMCOneIteration#I#$@N@arma@C@Col>#d#I#I#I#I#I#I#I#d#I#I#I#I#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/MSBS/src/MCMCOneIteration.h",
+        "file_last_write" : 1503976466
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 15,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/MainSampleDelta.h",
+                "kind" : 6,
+                "line" : 15,
+                "name" : "MainSampleDelta(IntegerVector, IntegerVector, List, int, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@MainSampleDelta#I#I#I#I#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/MSBS/src/MainSampleDelta.h",
+        "file_last_write" : 1596873884
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/MainSampleDeltaGlobalUpdate.h",
+                "kind" : 6,
+                "line" : 13,
+                "name" : "MainSampleDeltaGlobalUpdate(NumericMatrix, arma::vec, List, List, IntegerVector, List, int, int, int, int, int, double, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@MainSampleDeltaGlobalUpdate#I#$@N@arma@C@Col>#d#I#I#I#I#I#I#I#I#I#d#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/MSBS/src/MainSampleDeltaGlobalUpdate.h",
+        "file_last_write" : 1503858474
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/MainSampleDeltaGlobalUpdateVec.h",
+                "kind" : 6,
+                "line" : 14,
+                "name" : "MainSampleDeltaGlobalUpdateVec(NumericMatrix, arma::vec, List, IntegerVector, List, IntegerVector, int, int, int, double, NumericVector)",
+                "parent_name" : "",
+                "usr" : "c:@F@MainSampleDeltaGlobalUpdateVec#I#$@N@arma@C@Col>#d#I#I#I#I#I#I#I#d#I#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/MSBS/src/MainSampleDeltaGlobalUpdateVec.h",
+        "file_last_write" : 1503858446
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/MainSampleDeltaUpdate.h",
+                "kind" : 6,
+                "line" : 15,
+                "name" : "MainSampleDeltaUpdate(NumericMatrix, arma::vec, IntegerVector, List, IntegerVector, List, int, int, int, int, int, double, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@MainSampleDeltaUpdate#I#$@N@arma@C@Col>#d#I#I#I#I#I#I#I#I#I#d#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/MSBS/src/MainSampleDeltaUpdate.h",
+        "file_last_write" : 1503872851
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/MakeInd.h",
+                "kind" : 6,
+                "line" : 13,
+                "name" : "MakeInd(int)",
+                "parent_name" : "",
+                "usr" : "c:@F@MakeInd#I#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/MSBS/src/MakeInd.h",
+        "file_last_write" : 1503868275
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 15,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/PilotSampleDelta.h",
+                "kind" : 6,
+                "line" : 14,
+                "name" : "PilotSampleDelta(IntegerVector, IntegerVector, List, int, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@PilotSampleDelta#I#I#I#I#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/MSBS/src/PilotSampleDelta.h",
+        "file_last_write" : 1596873938
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/PilotSampleDeltaGlobalUpdate.h",
+                "kind" : 6,
+                "line" : 12,
+                "name" : "PilotSampleDeltaGlobalUpdate(NumericMatrix, arma::vec, List, List, IntegerVector, List, int, int, int, int, int, double, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@PilotSampleDeltaGlobalUpdate#I#$@N@arma@C@Col>#d#I#I#I#I#I#I#I#I#I#d#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/MSBS/src/PilotSampleDeltaGlobalUpdate.h",
+        "file_last_write" : 1528646194
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/PilotSampleDeltaGlobalUpdateVec.h",
+                "kind" : 6,
+                "line" : 13,
+                "name" : "PilotSampleDeltaGlobalUpdateVec(NumericMatrix, arma::vec, List, IntegerVector, List, IntegerVector, int, int, int, double, NumericVector)",
+                "parent_name" : "",
+                "usr" : "c:@F@PilotSampleDeltaGlobalUpdateVec#I#$@N@arma@C@Col>#d#I#I#I#I#I#I#I#d#I#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/MSBS/src/PilotSampleDeltaGlobalUpdateVec.h",
+        "file_last_write" : 1528646218
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/PilotSampleDeltaUpdate.h",
+                "kind" : 6,
+                "line" : 14,
+                "name" : "PilotSampleDeltaUpdate(NumericMatrix, arma::vec, IntegerVector, List, IntegerVector, List, int, int, int, int, int, double, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@PilotSampleDeltaUpdate#I#$@N@arma@C@Col>#d#I#I#I#I#I#I#I#I#I#d#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/MSBS/src/PilotSampleDeltaUpdate.h",
+        "file_last_write" : 1528646167
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/PseudoPrior.h",
+                "kind" : 6,
+                "line" : 12,
+                "name" : "PseudoPrior(IntegerVector, double, double, int, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@PseudoPrior#I#d#d#I#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/MSBS/src/PseudoPrior.h",
+        "file_last_write" : 1503858486
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 15,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/PseudoSampleDelta.h",
+                "kind" : 6,
+                "line" : 13,
+                "name" : "PseudoSampleDelta(double, double, int, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@PseudoSampleDelta#d#d#I#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/MSBS/src/PseudoSampleDelta.h",
+        "file_last_write" : 1596873986
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/PseudoSampleDeltaVec.h",
+                "kind" : 6,
+                "line" : 13,
+                "name" : "PseudoSampleDeltaVec(List, IntegerVector, NumericVector, NumericVector, IntegerVector, NumericVector, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@PseudoSampleDeltaVec#I#I#I#I#I#I#I#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/MSBS/src/PseudoSampleDeltaVec.h",
+        "file_last_write" : 1503858456
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/R2.h",
+                "kind" : 6,
+                "line" : 11,
+                "name" : "R2(arma::mat, arma::vec)",
+                "parent_name" : "",
+                "usr" : "c:@F@R2#$@N@arma@C@Mat>#d#$@N@arma@C@Col>#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/MSBS/src/R2.h",
+        "file_last_write" : 1503856084
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 11,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/SampleFixeff.h",
+                "kind" : 6,
+                "line" : 11,
+                "name" : "SampleFixeff(int, arma::mat, arma::vec, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@SampleFixeff#I#$@N@arma@C@Mat>#d#$@N@arma@C@Col>#d#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/MSBS/src/SampleFixeff.h",
+        "file_last_write" : 1503862529
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/SampleGammaLinear.h",
+                "kind" : 6,
+                "line" : 17,
+                "name" : "SampleGammaLinear(NumericMatrix, arma::vec, int, double, List, IntegerVector, int, int, int, double, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@SampleGammaLinear#I#$@N@arma@C@Col>#d#I#d#I#I#I#I#I#d#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/MSBS/src/SampleGammaLinear.h",
+        "file_last_write" : 1596874018
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/SampleGammaLinearVec.h",
+                "kind" : 6,
+                "line" : 13,
+                "name" : "SampleGammaLinearVec(NumericMatrix, arma::vec, int, double, List, IntegerVector, int, int, double, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@SampleGammaLinearVec#I#$@N@arma@C@Col>#d#I#d#I#I#I#I#d#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/MSBS/src/SampleGammaLinearVec.h",
+        "file_last_write" : 1504065255
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/SampleGammaNonlinear.h",
+                "kind" : 6,
+                "line" : 17,
+                "name" : "SampleGammaNonlinear(NumericMatrix, arma::vec, int, double, List, IntegerVector, NumericVector, NumericVector, IntegerVector, NumericVector, NumericVector, int, int, int, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@SampleGammaNonlinear#I#$@N@arma@C@Col>#d#I#d#I#I#I#I#I#I#I#I#I#I#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/MSBS/src/SampleGammaNonlinear.h",
+        "file_last_write" : 1596874048
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/SampleGammaNonlinearVec.h",
+                "kind" : 6,
+                "line" : 13,
+                "name" : "SampleGammaNonlinearVec(NumericMatrix, arma::vec, int, double, List, IntegerVector, NumericVector, NumericVector, IntegerVector, NumericVector, NumericVector, int, int, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@SampleGammaNonlinearVec#I#$@N@arma@C@Col>#d#I#d#I#I#I#I#I#I#I#I#I#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/MSBS/src/SampleGammaNonlinearVec.h",
+        "file_last_write" : 1503858446
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 15,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/Subset.h",
+                "kind" : 6,
+                "line" : 11,
+                "name" : "Subset(IntegerVector, NumericMatrix, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@Subset#I#I#I#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/MSBS/src/Subset.h",
+        "file_last_write" : 1503856111
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 11,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/Wrapper.cpp",
+                "kind" : 6,
+                "line" : 13,
+                "name" : "CombBasisCpp(arma::mat, List)",
+                "parent_name" : "",
+                "usr" : "c:@F@CombBasisCpp#$@N@arma@C@Mat>#d#I#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/Wrapper.cpp",
+                "kind" : 6,
+                "line" : 18,
+                "name" : "MCMCEstIterationCpp(NumericMatrix, arma::vec, List, IntegerVector, List, IntegerVector, int, int, int, double, double, NumericVector)",
+                "parent_name" : "",
+                "usr" : "c:@F@MCMCEstIterationCpp#I#$@N@arma@C@Col>#d#I#I#I#I#I#I#I#d#d#I#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/MSBS/src/Wrapper.cpp",
+                "kind" : 6,
+                "line" : 23,
+                "name" : "MCMCOneIterationCpp(NumericMatrix, arma::vec, List, IntegerVector, List, IntegerVector, int, int, int, double, NumericVector, NumericVector, NumericVector, NumericVector, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@MCMCOneIterationCpp#I#$@N@arma@C@Col>#d#I#I#I#I#I#I#I#d#I#I#I#I#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/MSBS/src/Wrapper.cpp",
+        "file_last_write" : 1528646403
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 11,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/Basis.h",
+                "kind" : 6,
+                "line" : 11,
+                "name" : "Basis(arma::vec, arma::vec)",
+                "parent_name" : "",
+                "usr" : "c:@F@Basis#$@N@arma@C@Col>#d#S0_#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/bmsaplm/src/Basis.h",
+        "file_last_write" : 1503855866
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 11,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/CombBasis.h",
+                "kind" : 6,
+                "line" : 12,
+                "name" : "CombBasis(arma::mat, List)",
+                "parent_name" : "",
+                "usr" : "c:@F@CombBasis#$@N@arma@C@Mat>#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/bmsaplm/src/CombBasis.h",
+        "file_last_write" : 1504035203
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/DeltaPrior.h",
+                "kind" : 6,
+                "line" : 15,
+                "name" : "DeltaPrior(List, IntegerVector, NumericVector, NumericVector, IntegerVector, NumericVector, NumericVector, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@DeltaPrior#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#S2_#S1_#S2_#S2_#I#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/bmsaplm/src/DeltaPrior.h",
+        "file_last_write" : 1528643879
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 15,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/Eta.h",
+                "kind" : 6,
+                "line" : 11,
+                "name" : "Eta(List, IntegerVector, int, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@Eta#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#I#I#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/bmsaplm/src/Eta.h",
+        "file_last_write" : 1503974703
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/GammaPrior.h",
+                "kind" : 6,
+                "line" : 12,
+                "name" : "GammaPrior(IntegerVector, int, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@GammaPrior#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#I#I#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/bmsaplm/src/GammaPrior.h",
+        "file_last_write" : 1504065526
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/LogBF.h",
+                "kind" : 6,
+                "line" : 13,
+                "name" : "LogBF(IntegerVector, NumericMatrix, arma::vec, int, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@LogBF#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#I#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/bmsaplm/src/LogBF.h",
+        "file_last_write" : 1503856061
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/MCMCEstIteration.h",
+                "kind" : 6,
+                "line" : 18,
+                "name" : "MCMCEstIteration(NumericMatrix, arma::vec, List, IntegerVector, List, IntegerVector, int, int, int, double, double, NumericVector)",
+                "parent_name" : "",
+                "usr" : "c:@F@MCMCEstIteration#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#S2_#S3_#I#I#I#d#d#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/bmsaplm/src/MCMCEstIteration.h",
+        "file_last_write" : 1528646362
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/MCMCOneIteration.h",
+                "kind" : 6,
+                "line" : 18,
+                "name" : "MCMCOneIteration(NumericMatrix, arma::vec, List, IntegerVector, List, IntegerVector, int, int, int, double, NumericVector, NumericVector, NumericVector, NumericVector, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@MCMCOneIteration#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#S2_#S3_#I#I#I#d#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#S4_#S4_#S4_#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/bmsaplm/src/MCMCOneIteration.h",
+        "file_last_write" : 1503976466
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 15,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/MainSampleDelta.h",
+                "kind" : 6,
+                "line" : 15,
+                "name" : "MainSampleDelta(IntegerVector, IntegerVector, List, int, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@MainSampleDelta#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#S0_#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#I#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/bmsaplm/src/MainSampleDelta.h",
+        "file_last_write" : 1528645746
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/MainSampleDeltaGlobalUpdate.h",
+                "kind" : 6,
+                "line" : 13,
+                "name" : "MainSampleDeltaGlobalUpdate(NumericMatrix, arma::vec, List, List, IntegerVector, List, int, int, int, int, int, double, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@MainSampleDeltaGlobalUpdate#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#S2_#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#S2_#I#I#I#I#I#d#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/bmsaplm/src/MainSampleDeltaGlobalUpdate.h",
+        "file_last_write" : 1503858474
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/MainSampleDeltaGlobalUpdateVec.h",
+                "kind" : 6,
+                "line" : 14,
+                "name" : "MainSampleDeltaGlobalUpdateVec(NumericMatrix, arma::vec, List, IntegerVector, List, IntegerVector, int, int, int, double, NumericVector)",
+                "parent_name" : "",
+                "usr" : "c:@F@MainSampleDeltaGlobalUpdateVec#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#S2_#S3_#I#I#I#d#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/bmsaplm/src/MainSampleDeltaGlobalUpdateVec.h",
+        "file_last_write" : 1503858446
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/MainSampleDeltaUpdate.h",
+                "kind" : 6,
+                "line" : 15,
+                "name" : "MainSampleDeltaUpdate(NumericMatrix, arma::vec, IntegerVector, List, IntegerVector, List, int, int, int, int, int, double, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@MainSampleDeltaUpdate#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#S2_#S3_#I#I#I#I#I#d#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/bmsaplm/src/MainSampleDeltaUpdate.h",
+        "file_last_write" : 1503872851
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/MakeInd.h",
+                "kind" : 6,
+                "line" : 13,
+                "name" : "MakeInd(int)",
+                "parent_name" : "",
+                "usr" : "c:@F@MakeInd#I#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/bmsaplm/src/MakeInd.h",
+        "file_last_write" : 1503868275
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 15,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/PilotSampleDelta.h",
+                "kind" : 6,
+                "line" : 14,
+                "name" : "PilotSampleDelta(IntegerVector, IntegerVector, List, int, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@PilotSampleDelta#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#S0_#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#I#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/bmsaplm/src/PilotSampleDelta.h",
+        "file_last_write" : 1528646277
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/PilotSampleDeltaGlobalUpdate.h",
+                "kind" : 6,
+                "line" : 12,
+                "name" : "PilotSampleDeltaGlobalUpdate(NumericMatrix, arma::vec, List, List, IntegerVector, List, int, int, int, int, int, double, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@PilotSampleDeltaGlobalUpdate#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#S2_#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#S2_#I#I#I#I#I#d#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/bmsaplm/src/PilotSampleDeltaGlobalUpdate.h",
+        "file_last_write" : 1528646194
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/PilotSampleDeltaGlobalUpdateVec.h",
+                "kind" : 6,
+                "line" : 13,
+                "name" : "PilotSampleDeltaGlobalUpdateVec(NumericMatrix, arma::vec, List, IntegerVector, List, IntegerVector, int, int, int, double, NumericVector)",
+                "parent_name" : "",
+                "usr" : "c:@F@PilotSampleDeltaGlobalUpdateVec#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#S2_#S3_#I#I#I#d#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/bmsaplm/src/PilotSampleDeltaGlobalUpdateVec.h",
+        "file_last_write" : 1528646218
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/PilotSampleDeltaUpdate.h",
+                "kind" : 6,
+                "line" : 14,
+                "name" : "PilotSampleDeltaUpdate(NumericMatrix, arma::vec, IntegerVector, List, IntegerVector, List, int, int, int, int, int, double, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@PilotSampleDeltaUpdate#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#S2_#S3_#I#I#I#I#I#d#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/bmsaplm/src/PilotSampleDeltaUpdate.h",
+        "file_last_write" : 1528646167
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/PseudoPrior.h",
+                "kind" : 6,
+                "line" : 12,
+                "name" : "PseudoPrior(IntegerVector, double, double, int, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@PseudoPrior#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#d#d#I#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/bmsaplm/src/PseudoPrior.h",
+        "file_last_write" : 1503858486
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 15,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/PseudoSampleDelta.h",
+                "kind" : 6,
+                "line" : 13,
+                "name" : "PseudoSampleDelta(double, double, int, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@PseudoSampleDelta#d#d#I#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/bmsaplm/src/PseudoSampleDelta.h",
+        "file_last_write" : 1503873274
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/PseudoSampleDeltaVec.h",
+                "kind" : 6,
+                "line" : 13,
+                "name" : "PseudoSampleDeltaVec(List, IntegerVector, NumericVector, NumericVector, IntegerVector, NumericVector, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@PseudoSampleDeltaVec#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#S2_#S1_#S2_#I#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/bmsaplm/src/PseudoSampleDeltaVec.h",
+        "file_last_write" : 1503858456
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/R2.h",
+                "kind" : 6,
+                "line" : 11,
+                "name" : "R2(arma::mat, arma::vec)",
+                "parent_name" : "",
+                "usr" : "c:@F@R2#$@N@arma@C@Mat>#d#$@N@arma@C@Col>#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/bmsaplm/src/R2.h",
+        "file_last_write" : 1503856084
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 11,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/SampleFixeff.h",
+                "kind" : 6,
+                "line" : 11,
+                "name" : "SampleFixeff(int, arma::mat, arma::vec, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@SampleFixeff#I#$@N@arma@C@Mat>#d#$@N@arma@C@Col>#d#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/bmsaplm/src/SampleFixeff.h",
+        "file_last_write" : 1503862529
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/SampleGammaLinear.h",
+                "kind" : 6,
+                "line" : 17,
+                "name" : "SampleGammaLinear(NumericMatrix, arma::vec, int, double, List, IntegerVector, int, int, int, double, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@SampleGammaLinear#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#I#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#I#I#I#d#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/bmsaplm/src/SampleGammaLinear.h",
+        "file_last_write" : 1503858462
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/SampleGammaLinearVec.h",
+                "kind" : 6,
+                "line" : 13,
+                "name" : "SampleGammaLinearVec(NumericMatrix, arma::vec, int, double, List, IntegerVector, int, int, double, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@SampleGammaLinearVec#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#I#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#I#I#d#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/bmsaplm/src/SampleGammaLinearVec.h",
+        "file_last_write" : 1504065261
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/SampleGammaNonlinear.h",
+                "kind" : 6,
+                "line" : 17,
+                "name" : "SampleGammaNonlinear(NumericMatrix, arma::vec, int, double, List, IntegerVector, NumericVector, NumericVector, IntegerVector, NumericVector, NumericVector, int, int, int, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@SampleGammaNonlinear#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#I#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#S4_#S3_#S4_#S4_#I#I#I#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/bmsaplm/src/SampleGammaNonlinear.h",
+        "file_last_write" : 1503858466
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/SampleGammaNonlinearVec.h",
+                "kind" : 6,
+                "line" : 13,
+                "name" : "SampleGammaNonlinearVec(NumericMatrix, arma::vec, int, double, List, IntegerVector, NumericVector, NumericVector, IntegerVector, NumericVector, NumericVector, int, int, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@SampleGammaNonlinearVec#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#I#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#S4_#S3_#S4_#S4_#I#I#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/bmsaplm/src/SampleGammaNonlinearVec.h",
+        "file_last_write" : 1503858446
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 15,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/Subset.h",
+                "kind" : 6,
+                "line" : 11,
+                "name" : "Subset(IntegerVector, NumericMatrix, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@Subset#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#I#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/bmsaplm/src/Subset.h",
+        "file_last_write" : 1503856111
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 11,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/Wrapper.cpp",
+                "kind" : 6,
+                "line" : 13,
+                "name" : "CombBasisCpp(arma::mat, List)",
+                "parent_name" : "",
+                "usr" : "c:@F@CombBasisCpp#$@N@arma@C@Mat>#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/Wrapper.cpp",
+                "kind" : 6,
+                "line" : 18,
+                "name" : "MCMCEstIterationCpp(NumericMatrix, arma::vec, List, IntegerVector, List, IntegerVector, int, int, int, double, double, NumericVector)",
+                "parent_name" : "",
+                "usr" : "c:@F@MCMCEstIterationCpp#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#S2_#S3_#I#I#I#d#d#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/Wrapper.cpp",
+                "kind" : 6,
+                "line" : 23,
+                "name" : "MCMCOneIterationCpp(NumericMatrix, arma::vec, List, IntegerVector, List, IntegerVector, int, int, int, double, NumericVector, NumericVector, NumericVector, NumericVector, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@MCMCOneIterationCpp#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#S2_#S3_#I#I#I#d#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#S4_#S4_#S4_#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/bmsaplm/src/Wrapper.cpp",
+        "file_last_write" : 1528646403
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "C:/Dropbox/Rpackages/bmsaplm/src/ZTGeoPrior.h",
+                "kind" : 6,
+                "line" : 12,
+                "name" : "ZTGeoPrior(IntegerVector, int, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@ZTGeoPrior#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#I#d#"
+            }
+        ],
+        "file" : "C:/Dropbox/Rpackages/bmsaplm/src/ZTGeoPrior.h",
+        "file_last_write" : 1528645208
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 11,
+                "file" : "C:/Rpackages/bmsaplm/src/Basis.h",
+                "kind" : 6,
+                "line" : 11,
+                "name" : "Basis(arma::vec, arma::vec)",
+                "parent_name" : "",
+                "usr" : "c:@F@Basis#$@N@arma@C@Col>#d#S0_#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/Basis.h",
+        "file_last_write" : 1503855866
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 11,
+                "file" : "C:/Rpackages/bmsaplm/src/CentMat.h",
+                "kind" : 6,
+                "line" : 12,
+                "name" : "CentMat(arma::mat, arma::vec)",
+                "parent_name" : "",
+                "usr" : "c:@F@CentMat#$@N@arma@C@Mat>#d#$@N@arma@C@Col>#d#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/CentMat.h",
+        "file_last_write" : 1504035155
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 11,
+                "file" : "C:/Rpackages/bmsaplm/src/CombBasis.h",
+                "kind" : 6,
+                "line" : 12,
+                "name" : "CombBasis(arma::mat, List)",
+                "parent_name" : "",
+                "usr" : "c:@F@CombBasis#$@N@arma@C@Mat>#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/CombBasis.h",
+        "file_last_write" : 1504035203
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "C:/Rpackages/bmsaplm/src/DeltaPrior.h",
+                "kind" : 6,
+                "line" : 14,
+                "name" : "DeltaPrior(List, IntegerVector, NumericVector, NumericVector, IntegerVector, NumericVector, NumericVector, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@DeltaPrior#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#S2_#S1_#S2_#S2_#I#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/DeltaPrior.h",
+        "file_last_write" : 1503858474
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 15,
+                "file" : "C:/Rpackages/bmsaplm/src/Eta.h",
+                "kind" : 6,
+                "line" : 11,
+                "name" : "Eta(List, IntegerVector, int, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@Eta#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#I#I#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/Eta.h",
+        "file_last_write" : 1503974703
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "C:/Rpackages/bmsaplm/src/GammaPrior.h",
+                "kind" : 6,
+                "line" : 12,
+                "name" : "GammaPrior(IntegerVector, int, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@GammaPrior#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#I#I#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/GammaPrior.h",
+        "file_last_write" : 1503975847
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "C:/Rpackages/bmsaplm/src/LogBF.h",
+                "kind" : 6,
+                "line" : 13,
+                "name" : "LogBF(IntegerVector, NumericMatrix, arma::vec, int, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@LogBF#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#I#d#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/LogBF.h",
+        "file_last_write" : 1503856061
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Rpackages/bmsaplm/src/MCMCEstIteration.h",
+                "kind" : 6,
+                "line" : 18,
+                "name" : "MCMCEstIteration(NumericMatrix, arma::vec, List, IntegerVector, List, IntegerVector, int, int, int, double, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@MCMCEstIteration#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#S2_#S3_#I#I#I#d#d#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/MCMCEstIteration.h",
+        "file_last_write" : 1503868628
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Rpackages/bmsaplm/src/MCMCOneIteration.h",
+                "kind" : 6,
+                "line" : 18,
+                "name" : "MCMCOneIteration(NumericMatrix, arma::vec, List, IntegerVector, List, IntegerVector, int, int, int, double, NumericVector, NumericVector, NumericVector, NumericVector, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@MCMCOneIteration#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#S2_#S3_#I#I#I#d#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#S4_#S4_#S4_#d#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/MCMCOneIteration.h",
+        "file_last_write" : 1503976466
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 15,
+                "file" : "C:/Rpackages/bmsaplm/src/MainSampleDelta.h",
+                "kind" : 6,
+                "line" : 15,
+                "name" : "MainSampleDelta(IntegerVector, IntegerVector, List, int, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@MainSampleDelta#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#S0_#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#I#d#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/MainSampleDelta.h",
+        "file_last_write" : 1503868451
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Rpackages/bmsaplm/src/MainSampleDeltaGlobalUpdate.h",
+                "kind" : 6,
+                "line" : 13,
+                "name" : "MainSampleDeltaGlobalUpdate(NumericMatrix, arma::vec, List, List, IntegerVector, List, int, int, int, int, int, double, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@MainSampleDeltaGlobalUpdate#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#S2_#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#S2_#I#I#I#I#I#d#d#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/MainSampleDeltaGlobalUpdate.h",
+        "file_last_write" : 1503858474
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Rpackages/bmsaplm/src/MainSampleDeltaGlobalUpdateVec.h",
+                "kind" : 6,
+                "line" : 14,
+                "name" : "MainSampleDeltaGlobalUpdateVec(NumericMatrix, arma::vec, List, IntegerVector, List, IntegerVector, int, int, int, double, NumericVector)",
+                "parent_name" : "",
+                "usr" : "c:@F@MainSampleDeltaGlobalUpdateVec#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#S2_#S3_#I#I#I#d#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/MainSampleDeltaGlobalUpdateVec.h",
+        "file_last_write" : 1503858446
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Rpackages/bmsaplm/src/MainSampleDeltaUpdate.h",
+                "kind" : 6,
+                "line" : 15,
+                "name" : "MainSampleDeltaUpdate(NumericMatrix, arma::vec, IntegerVector, List, IntegerVector, List, int, int, int, int, int, double, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@MainSampleDeltaUpdate#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#S2_#S3_#I#I#I#I#I#d#d#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/MainSampleDeltaUpdate.h",
+        "file_last_write" : 1503872851
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Rpackages/bmsaplm/src/MakeInd.h",
+                "kind" : 6,
+                "line" : 13,
+                "name" : "MakeInd(int)",
+                "parent_name" : "",
+                "usr" : "c:@F@MakeInd#I#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/MakeInd.h",
+        "file_last_write" : 1503868275
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 15,
+                "file" : "C:/Rpackages/bmsaplm/src/PilotSampleDelta.h",
+                "kind" : 6,
+                "line" : 14,
+                "name" : "PilotSampleDelta(IntegerVector, IntegerVector, List, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@PilotSampleDelta#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#S0_#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#I#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/PilotSampleDelta.h",
+        "file_last_write" : 1503868277
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Rpackages/bmsaplm/src/PilotSampleDeltaGlobalUpdate.h",
+                "kind" : 6,
+                "line" : 12,
+                "name" : "PilotSampleDeltaGlobalUpdate(NumericMatrix, arma::vec, List, List, IntegerVector, List, int, int, int, int, int, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@PilotSampleDeltaGlobalUpdate#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#S2_#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#S2_#I#I#I#I#I#d#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/PilotSampleDeltaGlobalUpdate.h",
+        "file_last_write" : 1503856562
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Rpackages/bmsaplm/src/PilotSampleDeltaGlobalUpdateVec.h",
+                "kind" : 6,
+                "line" : 13,
+                "name" : "PilotSampleDeltaGlobalUpdateVec(NumericMatrix, arma::vec, List, IntegerVector, List, IntegerVector, int, int, int, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@PilotSampleDeltaGlobalUpdateVec#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#S2_#S3_#I#I#I#d#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/PilotSampleDeltaGlobalUpdateVec.h",
+        "file_last_write" : 1503885276
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Rpackages/bmsaplm/src/PilotSampleDeltaUpdate.h",
+                "kind" : 6,
+                "line" : 14,
+                "name" : "PilotSampleDeltaUpdate(NumericMatrix, arma::vec, IntegerVector, List, IntegerVector, List, int, int, int, int, int, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@PilotSampleDeltaUpdate#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#S2_#S3_#I#I#I#I#I#d#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/PilotSampleDeltaUpdate.h",
+        "file_last_write" : 1503863513
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "C:/Rpackages/bmsaplm/src/PseudoPrior.h",
+                "kind" : 6,
+                "line" : 12,
+                "name" : "PseudoPrior(IntegerVector, double, double, int, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@PseudoPrior#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#d#d#I#d#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/PseudoPrior.h",
+        "file_last_write" : 1503858486
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 15,
+                "file" : "C:/Rpackages/bmsaplm/src/PseudoSampleDelta.h",
+                "kind" : 6,
+                "line" : 13,
+                "name" : "PseudoSampleDelta(double, double, int, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@PseudoSampleDelta#d#d#I#d#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/PseudoSampleDelta.h",
+        "file_last_write" : 1503873274
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Rpackages/bmsaplm/src/PseudoSampleDeltaVec.h",
+                "kind" : 6,
+                "line" : 13,
+                "name" : "PseudoSampleDeltaVec(List, IntegerVector, NumericVector, NumericVector, IntegerVector, NumericVector, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@PseudoSampleDeltaVec#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#S2_#S1_#S2_#I#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/PseudoSampleDeltaVec.h",
+        "file_last_write" : 1503858456
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "C:/Rpackages/bmsaplm/src/R2.h",
+                "kind" : 6,
+                "line" : 11,
+                "name" : "R2(arma::mat, arma::vec)",
+                "parent_name" : "",
+                "usr" : "c:@F@R2#$@N@arma@C@Mat>#d#$@N@arma@C@Col>#d#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/R2.h",
+        "file_last_write" : 1503856084
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 11,
+                "file" : "C:/Rpackages/bmsaplm/src/SampleFixeff.h",
+                "kind" : 6,
+                "line" : 11,
+                "name" : "SampleFixeff(int, arma::mat, arma::vec, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@SampleFixeff#I#$@N@arma@C@Mat>#d#$@N@arma@C@Col>#d#d#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/SampleFixeff.h",
+        "file_last_write" : 1503862529
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Rpackages/bmsaplm/src/SampleGammaLinear.h",
+                "kind" : 6,
+                "line" : 17,
+                "name" : "SampleGammaLinear(NumericMatrix, arma::vec, int, double, List, IntegerVector, int, int, int, double, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@SampleGammaLinear#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#I#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#I#I#I#d#d#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/SampleGammaLinear.h",
+        "file_last_write" : 1503858462
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Rpackages/bmsaplm/src/SampleGammaLinearVec.h",
+                "kind" : 6,
+                "line" : 13,
+                "name" : "SampleGammaLinearVec(NumericMatrix, arma::vec, int, double, List, IntegerVector, int, int, double, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@SampleGammaLinearVec#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#I#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#I#I#d#d#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/SampleGammaLinearVec.h",
+        "file_last_write" : 1503858450
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Rpackages/bmsaplm/src/SampleGammaNonlinear.h",
+                "kind" : 6,
+                "line" : 17,
+                "name" : "SampleGammaNonlinear(NumericMatrix, arma::vec, int, double, List, IntegerVector, NumericVector, NumericVector, IntegerVector, NumericVector, NumericVector, int, int, int, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@SampleGammaNonlinear#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#I#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#S4_#S3_#S4_#S4_#I#I#I#d#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/SampleGammaNonlinear.h",
+        "file_last_write" : 1503858466
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Rpackages/bmsaplm/src/SampleGammaNonlinearVec.h",
+                "kind" : 6,
+                "line" : 13,
+                "name" : "SampleGammaNonlinearVec(NumericMatrix, arma::vec, int, double, List, IntegerVector, NumericVector, NumericVector, IntegerVector, NumericVector, NumericVector, int, int, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@SampleGammaNonlinearVec#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#I#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#S4_#S3_#S4_#S4_#I#I#d#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/SampleGammaNonlinearVec.h",
+        "file_last_write" : 1503858446
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 15,
+                "file" : "C:/Rpackages/bmsaplm/src/Subset.h",
+                "kind" : 6,
+                "line" : 11,
+                "name" : "Subset(IntegerVector, NumericMatrix, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@Subset#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#I#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/Subset.h",
+        "file_last_write" : 1503856111
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 11,
+                "file" : "C:/Rpackages/bmsaplm/src/Wrapper.cpp",
+                "kind" : 6,
+                "line" : 14,
+                "name" : "CombBasisCpp(arma::mat, List)",
+                "parent_name" : "",
+                "usr" : "c:@F@CombBasisCpp#$@N@arma@C@Mat>#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#"
+            },
+            {
+                "column" : 11,
+                "file" : "C:/Rpackages/bmsaplm/src/Wrapper.cpp",
+                "kind" : 6,
+                "line" : 19,
+                "name" : "CentMatCpp(arma::mat, arma::vec)",
+                "parent_name" : "",
+                "usr" : "c:@F@CentMatCpp#$@N@arma@C@Mat>#d#$@N@arma@C@Col>#d#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Rpackages/bmsaplm/src/Wrapper.cpp",
+                "kind" : 6,
+                "line" : 24,
+                "name" : "MCMCEstIterationCpp(NumericMatrix, arma::vec, List, IntegerVector, List, IntegerVector, int, int, int, double, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@MCMCEstIterationCpp#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#S2_#S3_#I#I#I#d#d#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Rpackages/bmsaplm/src/Wrapper.cpp",
+                "kind" : 6,
+                "line" : 29,
+                "name" : "MCMCOneIterationCpp(NumericMatrix, arma::vec, List, IntegerVector, List, IntegerVector, int, int, int, double, NumericVector, NumericVector, NumericVector, NumericVector, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@MCMCOneIterationCpp#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#S2_#S3_#I#I#I#d#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#S4_#S4_#S4_#d#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/Wrapper.cpp",
+        "file_last_write" : 1504035444
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "C:/Rpackages/bmsaplm/src/ZTBBPrior.h",
+                "kind" : 6,
+                "line" : 11,
+                "name" : "ZTBBPrior(IntegerVector, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@ZTBBPrior#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#I#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/ZTBBPrior.h",
+        "file_last_write" : 1503856154
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "C:/Rpackages/bmsaplm/src/ZTBinPrior.h",
+                "kind" : 6,
+                "line" : 12,
+                "name" : "ZTBinPrior(IntegerVector, int, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@ZTBinPrior#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#I#d#"
+            }
+        ],
+        "file" : "C:/Rpackages/bmsaplm/src/ZTBinPrior.h",
+        "file_last_write" : 1503858472
+    }
+]
