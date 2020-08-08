@@ -1,4 +1,4 @@
-Package: bmsaplm
+Package: MSBS
 Type: Package
 Title: Bayesian model selection for additive partial linear models
 Version: 0.1.0
