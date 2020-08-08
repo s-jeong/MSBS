@@ -32,7 +32,7 @@ List SampleGammaNonlinear(NumericMatrix X, arma::vec y, int n, double a, List li
 	}
 	NumericVector unprob=exp(vec_logpost-max(vec_logpost));
 	arma::vec prob_o=as<arma::vec>(unprob);
-	IntegerVector seq_ind = seq_len(2)-1;
+	IntegerVector seq_ind = seq_len(3)-1;
 	IntegerVector sampled_gamma = Rcpp::RcppArmadillo::sample(seq_ind,1,TRUE,prob_o);
 	temp_gamma[z-1] = sampled_gamma[0];
 	return List::create(temp_gamma,vec_logpost[sampled_gamma[0]]);

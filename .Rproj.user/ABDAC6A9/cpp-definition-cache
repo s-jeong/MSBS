@@ -368,11 +368,11 @@
                 "line" : 17,
                 "name" : "SampleGammaNonlinear(NumericMatrix, arma::vec, int, double, List, IntegerVector, NumericVector, NumericVector, IntegerVector, NumericVector, NumericVector, int, int, int, double)",
                 "parent_name" : "",
-                "usr" : "c:@F@SampleGammaNonlinear#I#$@N@arma@C@Col>#d#I#d#I#I#I#I#I#I#I#I#I#I#d#"
+                "usr" : "c:@F@SampleGammaNonlinear#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#I#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#S4_#S3_#S4_#S4_#I#I#I#d#"
             }
         ],
         "file" : "C:/Dropbox/Rpackages/MSBS/src/SampleGammaNonlinear.h",
-        "file_last_write" : 1596874048
+        "file_last_write" : 1596925384
     },
     {
         "definitions" : [
