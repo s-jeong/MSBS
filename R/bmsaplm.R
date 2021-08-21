@@ -47,13 +47,18 @@ bmsaplm=function(y, X, Z=NULL, nKnot=rep(20,ncol(X)), pilot.n=300, main.n=2000, 
 		cor.vec[j]=max(corZ[lower.tri(corZ)])
 	}
 	if(any(cor.vec>1-1e-7)){
-		stop(paste("Use the fewer number of knot candidates for ",
+		stop(paste("Use a fewer number of knot candidates for ",
 			paste(colnamesX[c(cor.vec>1-1e-7)],collapse=", "),
-			". The current valeus of nKot are ",paste(numkn,collapse=", "),".",sep=""))
+			". The currently used nKnot vector is ",paste(numkn,collapse=", "),".",sep=""))
 	}
 	delta=lapply(numkn,function(x)rep(0,x+1))
-	for(dd in 1:p) {delta[[dd]][1]=1;delta[[dd]][sample(2:length(delta[[dd]]),1)]=1}
-	delta.var=c(rep(2,p),rep(1,r))
+	small=(n<ncol(WstarM.Zi)/2)
+	if(small){
+		delta.var=c(rep(2,p),rep(0,r))
+	}else{
+		for(dd in 1:p) {delta[[dd]][1]=0;delta[[dd]][sample(2:length(delta[[dd]]),1)]=1}
+		delta.var=c(rep(2,p),rep(1,r))
+	}
 
 	temp.list.delta=list(list(0,1),
 				list(c(0,0),c(1,0),c(0,1),c(1,1)),
@@ -66,7 +71,7 @@ bmsaplm=function(y, X, Z=NULL, nKnot=rep(20,ncol(X)), pilot.n=300, main.n=2000, 
 	cat("Pilot chain:",'\n')
 	cat("0% =================== 50% =================== 100%",'\n')
 	for(iter in 1:pilot.num){
-		delta.iter=PilotSampleDeltaGlobalUpdateVec(WstarM.Zi,y,delta,delta.var,temp.list.delta,numkn,n,p,r,log.BF.cur,p.ztgeo)
+		delta.iter=PilotSampleDeltaGlobalUpdateVec(WstarM.Zi,y,delta,delta.var,temp.list.delta,numkn,n,p,r,log.BF.cur,p.ztgeo,small)
 		delta=delta.iter[[1]]
 		log.BF.cur=delta.iter[[2]]
 		Fset.delta.comb[,iter]=unlist(delta)
@@ -84,8 +89,8 @@ bmsaplm=function(y, X, Z=NULL, nKnot=rep(20,ncol(X)), pilot.n=300, main.n=2000, 
 	for(j in 1:p){
 		findpar=function(x) {
 			y=c()
-			mean.d=sum((1:numkn[j])*dnorm(1:numkn[j],x[1],abs(x[2]))/sum(dnorm(1:numkn[j],x[1],abs(x[2]))))
-			var.d=sum((1:numkn[j])^2*dnorm(1:numkn[j],x[1],abs(x[2]))/sum(dnorm(1:numkn[j],x[1],abs(x[2]))))-mean.d^2
+			mean.d=sum(((1-small):numkn[j])*dnorm((1-small):numkn[j],x[1],abs(x[2]))/sum(dnorm((1-small):numkn[j],x[1],abs(x[2]))))
+			var.d=sum(((1-small):numkn[j])^2*dnorm((1-small):numkn[j],x[1],abs(x[2]))/sum(dnorm((1-small):numkn[j],x[1],abs(x[2]))))-mean.d^2
 			y[1]=mean.d-temp.m.delta[j]; y[2]=var.d-temp.var.delta[j]
 			return(y)
 		}

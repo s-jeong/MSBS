@@ -11,7 +11,7 @@ using namespace Rcpp;
 // [[Rcpp::depends(RcppArmadillo)]]
 // [[Rcpp::export]]
 
-IntegerVector PilotSampleDelta(IntegerVector sel_ind, IntegerVector fordelta, List listdelta, int numkn, double phat) {
+IntegerVector PilotSampleDelta(IntegerVector sel_ind, IntegerVector fordelta, List listdelta, int numkn, double phat, bool small) {
 	NumericVector prob(pow(2,sel_ind.size()));
 	IntegerVector curdelta(numkn+1);
 	for(int i = 0; i < numkn+1; i++) {
@@ -30,14 +30,21 @@ IntegerVector PilotSampleDelta(IntegerVector sel_ind, IntegerVector fordelta, Li
 	arma::vec prob_o=as<arma::vec>(unprob);
 	CharacterVector sel_ch=as<CharacterVector>(wrap(seq_len(pow(2,sel_ind.size()))));
 	IntegerVector seq_ind=seq_len(pow(2,sel_ind.size()));
-	do{
+	if(small){
 		IntegerVector sampled_ind = Rcpp::RcppArmadillo::sample(seq_ind,1,TRUE,prob_o);
-//  		IntegerVector sampled_ind = RcppArmadilloSample(seq_ind,1,TRUE,exp(prob-max(prob)));
 		IntegerVector sampled_val = templistdelta[sampled_ind[0]-1];
 		for(int j = 0; j < sel_ind.size(); j++) {
 			curdelta[sel_ind[j]-1] = sampled_val[j];
 		}
-	}while(sum(curdelta)-curdelta[0]==0);
+	}else{
+		do{
+			IntegerVector sampled_ind = Rcpp::RcppArmadillo::sample(seq_ind,1,TRUE,prob_o);
+			IntegerVector sampled_val = templistdelta[sampled_ind[0]-1];
+			for(int j = 0; j < sel_ind.size(); j++) {
+				curdelta[sel_ind[j]-1] = sampled_val[j];
+			}
+		}while(sum(curdelta)-curdelta[0]==0);
+	} 
 	return curdelta;
 }
 

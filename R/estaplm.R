@@ -31,7 +31,7 @@ estaplm=function(y, X, Z=NULL, nKnot=rep(20,ncol(X)), mcmc.n=2000, mcmc.burnin=1
 		if(!(nrow(X)==n)) stop("The number of observations in y and X should be the same.")
 	}
 	if(!all(nKnot>=1)) stop("Use at least one knot for each covariate")
-	if(mcmc.n<2 | mcmc.burnin<1) stop("Use appropriate values for the number of MCMC samples.")
+	if(mcmc.n<2 | mcmc.burnin<1) stop("Use an appropriate value for the number of MCMC samples.")
 	numkn=nKnot
 	makelist.col=function(x) if(!is.null(ncol(x))){lapply(seq_len(ncol(x)),function(i) x[,i])}else{list(x)}
 	list.X=makelist.col(X)
@@ -47,12 +47,12 @@ estaplm=function(y, X, Z=NULL, nKnot=rep(20,ncol(X)), mcmc.n=2000, mcmc.burnin=1
 		cor.vec[j]=max(corZ[lower.tri(corZ)])
 	}
 	if(any(cor.vec>1-1e-7)){
-		stop(paste("Use the fewer number of knot candidates for ",
+		stop(paste("Use a fewer number of knot candidates for ",
 			paste(colnamesX[c(cor.vec>1-1e-7)],collapse=", "),
-			". The current valeus of nKot are ",paste(numkn,collapse=", "),".",sep=""))
+			". The currently used nKnot vector is ",paste(numkn,collapse=", "),".",sep=""))
 	}
 	delta=lapply(numkn,function(x)rep(0,x+1))
-	for(dd in 1:p) {delta[[dd]][1]=1;delta[[dd]][sample(2:length(delta[[dd]]),1)]=1}
+	for(dd in 1:p) {delta[[dd]][1]=0;delta[[dd]][sample(2:length(delta[[dd]]),1)]=1}
 	delta.var=c(rep(2,p),rep(1,r))
 	temp.list.delta=list(list(0,1),
 				list(c(0,0),c(1,0),c(0,1),c(1,1)),

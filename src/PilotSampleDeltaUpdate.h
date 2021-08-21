@@ -11,9 +11,9 @@ using namespace Rcpp;
 // [[Rcpp::depends(RcppArmadillo)]]
 // [[Rcpp::export]]
 
-List PilotSampleDeltaUpdate(NumericMatrix X, arma::vec y, IntegerVector sel_ind, List delta, IntegerVector gamma, List listdelta, int numkn, int n, int p, int q, int z, double logbf_cur, double phat) {
+List PilotSampleDeltaUpdate(NumericMatrix X, arma::vec y, IntegerVector sel_ind, List delta, IntegerVector gamma, List listdelta, int numkn, int n, int p, int q, int z, double logbf_cur, double phat, int small) {
 	IntegerVector fordelta=delta[z-1];
-	IntegerVector fordelta_cand=PilotSampleDelta(sel_ind,fordelta,listdelta,numkn,phat);
+	IntegerVector fordelta_cand=PilotSampleDelta(sel_ind,fordelta,listdelta,numkn,phat,small);
 	List delta_cand(p);
 	List delta_new(p);
 	double logbf_new;

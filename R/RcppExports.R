@@ -54,20 +54,20 @@ MakeInd <- function(numkn) {
     .Call('_MSBS_MakeInd', PACKAGE = 'MSBS', numkn)
 }
 
-PilotSampleDelta <- function(sel_ind, fordelta, listdelta, numkn, phat) {
-    .Call('_MSBS_PilotSampleDelta', PACKAGE = 'MSBS', sel_ind, fordelta, listdelta, numkn, phat)
+PilotSampleDelta <- function(sel_ind, fordelta, listdelta, numkn, phat, small) {
+    .Call('_MSBS_PilotSampleDelta', PACKAGE = 'MSBS', sel_ind, fordelta, listdelta, numkn, phat, small)
 }
 
-PilotSampleDeltaGlobalUpdate <- function(X, y, indset, delta, gamma, listdelta, numkn, n, p, q, z, logbf_cur, phat) {
-    .Call('_MSBS_PilotSampleDeltaGlobalUpdate', PACKAGE = 'MSBS', X, y, indset, delta, gamma, listdelta, numkn, n, p, q, z, logbf_cur, phat)
+PilotSampleDeltaGlobalUpdate <- function(X, y, indset, delta, gamma, listdelta, numkn, n, p, q, z, logbf_cur, phat, small) {
+    .Call('_MSBS_PilotSampleDeltaGlobalUpdate', PACKAGE = 'MSBS', X, y, indset, delta, gamma, listdelta, numkn, n, p, q, z, logbf_cur, phat, small)
 }
 
-PilotSampleDeltaGlobalUpdateVec <- function(X, y, delta, gamma, listdelta, numkn, n, p, q, logbf_cur, phat) {
-    .Call('_MSBS_PilotSampleDeltaGlobalUpdateVec', PACKAGE = 'MSBS', X, y, delta, gamma, listdelta, numkn, n, p, q, logbf_cur, phat)
+PilotSampleDeltaGlobalUpdateVec <- function(X, y, delta, gamma, listdelta, numkn, n, p, q, logbf_cur, phat, small) {
+    .Call('_MSBS_PilotSampleDeltaGlobalUpdateVec', PACKAGE = 'MSBS', X, y, delta, gamma, listdelta, numkn, n, p, q, logbf_cur, phat, small)
 }
 
-PilotSampleDeltaUpdate <- function(X, y, sel_ind, delta, gamma, listdelta, numkn, n, p, q, z, logbf_cur, phat) {
-    .Call('_MSBS_PilotSampleDeltaUpdate', PACKAGE = 'MSBS', X, y, sel_ind, delta, gamma, listdelta, numkn, n, p, q, z, logbf_cur, phat)
+PilotSampleDeltaUpdate <- function(X, y, sel_ind, delta, gamma, listdelta, numkn, n, p, q, z, logbf_cur, phat, small) {
+    .Call('_MSBS_PilotSampleDeltaUpdate', PACKAGE = 'MSBS', X, y, sel_ind, delta, gamma, listdelta, numkn, n, p, q, z, logbf_cur, phat, small)
 }
 
 PseudoPrior <- function(delta, mu, var, numkn, mu0) {

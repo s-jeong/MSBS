@@ -1,9 +1,9 @@
 Package: MSBS
 Type: Package
 Title: Bayesian model selection for additive partial linear models
-Version: 0.1.0
+Version: 1.1.0
 Author: Seonghyun Jeong
-Maintainer: Seonghyun Jeong <sjeong4@ncsu.edu>
+Maintainer: Seonghyun Jeong <sjeong@yonsei.ac.kr>
 Description: Bayesian model selection for additive partial linear models using spline basis search.
 License: GPL-2
 Encoding: UTF-8
