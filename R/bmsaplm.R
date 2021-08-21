@@ -52,7 +52,7 @@ bmsaplm=function(y, X, Z=NULL, nKnot=rep(20,ncol(X)), pilot.n=300, main.n=2000, 
 			". The currently used nKnot vector is ",paste(numkn,collapse=", "),".",sep=""))
 	}
 	delta=lapply(numkn,function(x)rep(0,x+1))
-	small=(n<ncol(WstarM.Zi)/2)
+	small=(n<(p+r)/2)
 	if(small){
 		delta.var=c(rep(2,p),rep(0,r))
 	}else{
